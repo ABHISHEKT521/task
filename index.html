@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET IT DONE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <div class="navbar">
+        <h1>GET IT DONE</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>Cooking</h2>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eveniet veritatis repudiandae, laboriosam dolores iusto.</p>
+            <button onclick="deletebook(event)">delete</button>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>SET REMINDER</h2>
+        <form>
+            <input type="text" placeholder="Task" id="book-title-popup">
+            
+            <textarea placeholder="Task description" id="popup-desc"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+        </form>
+    </div>
+    <button class="add-button" id="add-button"> +</button>
+<script src="script.js">
+
+</script>
+</body>
+</html>
